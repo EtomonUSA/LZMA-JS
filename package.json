@@ -21,6 +21,10 @@
     "test": "node test/test-node.js && node test/test-node.js --sync"
   },
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "tonicExampleFilename": "demos/tonic_example.js",
   "keywords": [
     "lzma",
