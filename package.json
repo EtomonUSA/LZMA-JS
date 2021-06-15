@@ -1,34 +1,34 @@
 {
-  "author": "Nathan Rugg <nmrugg@gmail.com>",
-  "name": "@etomon/lzma",
-  "description": "A JavaScript implementation of the Lempel-Ziv-Markov (LZMA) chain compression algorithm",
-  "version": "2.3.3",
-  "homepage": "http://nmrugg.github.com/LZMA-JS/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/nmrugg/LZMA-JS.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nmrugg/LZMA-JS/issues"
-  },
-  "bin": {
-    "lzma.js": "bin/lzma.js"
-  },
-  "devDependencies": {
-    "uglify-js": "=2.4.16"
-  },
-  "scripts": {
-    "test": "node test/test-node.js && node test/test-node.js --sync"
-  },
-  "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
-  },
-  "tonicExampleFilename": "demos/tonic_example.js",
-  "keywords": [
-    "lzma",
-    "compression",
-    "decompression"
-  ]
+    "author": "Nathan Rugg <nmrugg@gmail.com>",
+    "name": "@etomon/lzma",
+    "description": "A JavaScript implementation of the Lempel-Ziv-Markov (LZMA) chain compression algorithm",
+    "version": "2.3.4",
+    "homepage": "http://nmrugg.github.com/LZMA-JS/",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nmrugg/LZMA-JS.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nmrugg/LZMA-JS/issues"
+    },
+    "bin": {
+        "lzma.js": "bin/lzma.js"
+    },
+    "devDependencies": {
+        "uglify-js": "=2.4.16"
+    },
+    "scripts": {
+        "test": "node test/test-node.js && node test/test-node.js --sync"
+    },
+    "license": "MIT",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    },
+    "tonicExampleFilename": "demos/tonic_example.js",
+    "keywords": [
+        "lzma",
+        "compression",
+        "decompression"
+    ]
 }
